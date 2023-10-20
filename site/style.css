@@ -1,0 +1,116 @@
+body{
+    color: black;
+    background-color: rgb(230, 230, 230);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+header{
+    background-color: rgb(20, 20, 20);
+    color: black;
+    padding-bottom: 5px;
+    border-bottom: solid 10px;
+    border-color: rgb(8, 8, 8);
+        
+
+        }
+header p{
+    color: rgb(230, 230, 230);
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+header img{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 12px;
+    padding: 12px;
+    font-style: oblique;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    font-size: 26px;
+    margin: 8px;
+    font-family:'Gill Sans';
+
+}
+img{
+    border: solid 3px;
+    border-radius: 20px;
+    border-color: rgb(20, 20, 20);
+    margin: 5px;
+    padding: 1px;   
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    text-align-last: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+
+h1{
+    font-style: bold;
+}
+h2{
+    font-style: bold;
+}
+h3{
+    font-style: bold;
+}
+main{
+    color: black;
+}
+section{
+    color: black;
+}
+aside{
+    color: black;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe{
+    border: solid 5px;
+    border-radius: 11px;
+    border-color: black;
+}
+
+footer{
+    background-color: rgb(20, 20, 20);
+    color: rgb(230, 230, 230);
+    padding-top: 5px;
+    border-top: solid 10px;
+    border-color: rgb(8, 8, 8);
+}
+
+.roblox{
+    height: 426px;
+    width: 640px;
+}
