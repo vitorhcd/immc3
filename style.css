@@ -4,6 +4,7 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center;
     text-align: center;
+    margin: 0;
 }
 header{
     background-color: rgb(20, 20, 20);
@@ -48,6 +49,7 @@ img{
     border-color: rgb(20, 20, 20);
     margin: 5px;
     padding: 1px;   
+    
 }
 p{
     font-size: 20px;
@@ -56,7 +58,20 @@ p{
     margin-left: 250px;
     margin-right: 250px;
 }
+.img{
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
 
+}
+.img:hover{
+    transform: scale(1.25);
+    transition: 0.5s;
+    
+}
 
 h1{
     font-style: bold;
